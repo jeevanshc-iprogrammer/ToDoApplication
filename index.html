@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+    <!-- <link rel="stylesheet" href="style.css" media="screen" charset="utf-8"> -->
+</head>
+
+<body>
+    <div class="container mainDiv">
+        <div>
+            <p>
+                <label for="newTask">Add Item</label>
+                <input id="newTask" type="text">
+                <button id="btnAdd">Add</button>
+            </p>
+        </div>
+
+        <div id="incomplete-tasks">
+            <h3>Pending Tasks</h3>
+            <div class="table">
+                <table>
+                        <thead>
+                            <tr style="justify-content: space-evenly; ">
+                                <td style="padding-right: 50px;">Task</td>
+                                <td style="padding-right: 50px;">Action</td>
+                            </tr>
+                        </thead>
+                    <tbody class="listBodyInCom">
+                        
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <div id="completed-tasks">
+            <h3>Completed Tasks</h3>
+            <div class="table">
+                <table>
+                        <thead>
+                            <tr style="justify-content: space-evenly; ">
+                                <td style="padding-right: 50px;">Task</td>
+                                <td style="padding-right: 50px;">Action</td>
+                            </tr>
+                        </thead>
+                    
+                    <tbody class="listBodyCom">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+
+</body>
+
+</html>
